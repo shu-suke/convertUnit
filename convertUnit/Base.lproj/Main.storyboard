@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="49e-Tb-3d3">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--cm-->
+        <scene sceneID="hNz-n2-bh7">
+            <objects>
+                <viewController id="9pv-A4-QxB" customClass="FirstViewController" customModule="convertUnit" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ia1-K6-d13"/>
+                        <viewControllerLayoutGuide type="bottom" id="4ug-Mw-9AY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tsR-hK-woN">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mXz-oJ-6Fh">
+                                <rect key="frame" x="20" y="120" width="560" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="cm" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AGx-3b-sJO">
+                                <rect key="frame" x="20" y="170" width="24" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uvn-BC-q2H">
+                                <rect key="frame" x="550" y="170" width="30" height="30"/>
+                                <state key="normal" title="入力"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="uvn-BC-q2H" firstAttribute="top" secondItem="mXz-oJ-6Fh" secondAttribute="bottom" constant="20" id="22k-qf-tGN"/>
+                            <constraint firstItem="AGx-3b-sJO" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leadingMargin" id="GLC-gr-gEr"/>
+                            <constraint firstItem="mXz-oJ-6Fh" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leadingMargin" id="Jb8-TV-usb"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="mXz-oJ-6Fh" secondAttribute="trailing" id="VfO-Oc-pSU"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="uvn-BC-q2H" secondAttribute="trailing" id="dWx-Eh-EKd"/>
+                            <constraint firstItem="mXz-oJ-6Fh" firstAttribute="top" secondItem="Ia1-K6-d13" secondAttribute="bottom" constant="100" id="hVC-g1-Ae7"/>
+                            <constraint firstItem="AGx-3b-sJO" firstAttribute="top" secondItem="mXz-oJ-6Fh" secondAttribute="bottom" constant="20" id="pQt-vo-iZF"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="cm" image="first" id="acW-dT-cKf"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="750" y="-320"/>
+        </scene>
+        <!--Inch-->
+        <scene sceneID="wg7-f3-ORb">
+            <objects>
+                <viewController id="8rJ-Kc-sve" customClass="SecondViewController" customModule="convertUnit" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="L7p-HK-0SC"/>
+                        <viewControllerLayoutGuide type="bottom" id="Djb-ko-YwX"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="QS5-Rx-YEW">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dgt-T1-6QR">
+                                <rect key="frame" x="20" y="120" width="560" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Inch" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xB0-Tr-kXy">
+                                <rect key="frame" x="20" y="170" width="33" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KMS-cI-8FN">
+                                <rect key="frame" x="550" y="170" width="30" height="30"/>
+                                <state key="normal" title="入力"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="dgt-T1-6QR" firstAttribute="top" secondItem="L7p-HK-0SC" secondAttribute="bottom" constant="100" id="B33-d2-43O"/>
+                            <constraint firstItem="xB0-Tr-kXy" firstAttribute="leading" secondItem="QS5-Rx-YEW" secondAttribute="leadingMargin" id="NVj-P5-jae"/>
+                            <constraint firstItem="xB0-Tr-kXy" firstAttribute="top" secondItem="dgt-T1-6QR" secondAttribute="bottom" constant="20" id="P9i-e8-XZO"/>
+                            <constraint firstItem="KMS-cI-8FN" firstAttribute="top" secondItem="dgt-T1-6QR" secondAttribute="bottom" constant="20" id="RY2-7v-SWb"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="KMS-cI-8FN" secondAttribute="trailing" id="bYT-gv-kqB"/>
+                            <constraint firstItem="dgt-T1-6QR" firstAttribute="trailing" secondItem="QS5-Rx-YEW" secondAttribute="trailingMargin" id="kcd-Le-C75"/>
+                            <constraint firstItem="xB0-Tr-kXy" firstAttribute="leading" secondItem="QS5-Rx-YEW" secondAttribute="leadingMargin" id="kgz-ea-gEP"/>
+                            <constraint firstItem="dgt-T1-6QR" firstAttribute="leading" secondItem="QS5-Rx-YEW" secondAttribute="leadingMargin" id="t5Q-7u-Hfp"/>
+                            <constraint firstItem="xB0-Tr-kXy" firstAttribute="top" secondItem="dgt-T1-6QR" secondAttribute="bottom" constant="20" id="zFm-7t-AUK"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Inch" image="second" id="cPa-gy-q4n"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="750" y="360"/>
+        </scene>
+        <!--寸-->
+        <scene sceneID="b72-zA-JWj">
+            <objects>
+                <viewController id="BgL-BV-9L5" customClass="thirdViewController" customModule="convertUnit" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Z7V-g4-wd3"/>
+                        <viewControllerLayoutGuide type="bottom" id="NUS-Gj-jwq"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kph-d4-6lJ">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fb1-f5-RP9">
+                                <rect key="frame" x="20" y="120" width="560" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="寸" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TNo-Ch-jj9">
+                                <rect key="frame" x="20" y="170" width="17" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yO0-L3-VaH">
+                                <rect key="frame" x="550" y="170" width="30" height="30"/>
+                                <state key="normal" title="入力"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="yO0-L3-VaH" secondAttribute="trailing" id="2fk-a6-FQd"/>
+                            <constraint firstItem="TNo-Ch-jj9" firstAttribute="leading" secondItem="kph-d4-6lJ" secondAttribute="leadingMargin" id="96n-hp-4Eu"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="fb1-f5-RP9" secondAttribute="trailing" id="Upl-nV-zAJ"/>
+                            <constraint firstItem="fb1-f5-RP9" firstAttribute="leading" secondItem="kph-d4-6lJ" secondAttribute="leadingMargin" id="bFh-mJ-9sL"/>
+                            <constraint firstItem="TNo-Ch-jj9" firstAttribute="top" secondItem="fb1-f5-RP9" secondAttribute="bottom" constant="20" id="mh6-LK-XLs"/>
+                            <constraint firstItem="yO0-L3-VaH" firstAttribute="top" secondItem="fb1-f5-RP9" secondAttribute="bottom" constant="20" id="sqP-jw-ydX"/>
+                            <constraint firstItem="fb1-f5-RP9" firstAttribute="top" secondItem="Z7V-g4-wd3" secondAttribute="bottom" constant="100" id="th0-QT-LdY"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="寸" image="second" id="RLs-ap-G1w"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pdg-Fc-Dsk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1439" y="18"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="yl2-sM-qoP">
+            <objects>
+                <tabBarController id="49e-Tb-3d3" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="W28-zg-YXA">
+                        <rect key="frame" x="0.0" y="975" width="768" height="49"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
+                        <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
+                        <segue destination="BgL-BV-9L5" kind="relationship" relationship="viewControllers" id="lqz-lb-cHG"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="0.0" y="0.0"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="first" width="30" height="30"/>
+        <image name="second" width="30" height="30"/>
+    </resources>
+</document>
