@@ -9,7 +9,30 @@
 import UIKit
 
 class thirdViewController: UIViewController {
+    @IBOutlet weak var dataTextField: UITextField!
 
+//    AppDelegateにアクセスするオブジェクトを作る
+    let ap = UIApplication.sharedApplication().delegate as! AppDelegate
+//    この画面が表示されるとき呼び出される
+    override func viewWillAppear(animated: Bool) {
+//    共有変数の値をテキストフィールドに書き込む
+        let sunValue = ap.cmValue * 0.33
+        dataTextField.text = String(sunValue)
+    }
+    
+    @IBAction func tapInput() {
+//        キーボードを閉じる
+        dataTextField.resignFirstResponder()
+        if let text = dataTextField.text {
+//        テキストフィールドに値があって
+            if let sunValue = Double(text) {
+//                小数の値に変換できたらcmに単位換算して共有変数に書き込む
+                ap.cmValue = sunValue / 0.33
+            }
+        }
+
+        
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
 

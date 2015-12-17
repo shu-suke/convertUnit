@@ -32,6 +32,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uvn-BC-q2H">
                                 <rect key="frame" x="550" y="170" width="30" height="30"/>
                                 <state key="normal" title="入力"/>
+                                <connections>
+                                    <action selector="tapInput:" destination="9pv-A4-QxB" eventType="touchUpInside" id="6Cu-63-3uO"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -46,6 +49,9 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="cm" image="first" id="acW-dT-cKf"/>
+                    <connections>
+                        <outlet property="dataTextField" destination="mXz-oJ-6Fh" id="UbN-i2-eWW"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
@@ -77,6 +83,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KMS-cI-8FN">
                                 <rect key="frame" x="550" y="170" width="30" height="30"/>
                                 <state key="normal" title="入力"/>
+                                <connections>
+                                    <action selector="tapInput:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="oO7-k9-rhn"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -93,6 +102,9 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Inch" image="second" id="cPa-gy-q4n"/>
+                    <connections>
+                        <outlet property="dataTextField" destination="dgt-T1-6QR" id="Kzg-YE-ehG"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
@@ -113,7 +125,7 @@
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fb1-f5-RP9">
                                 <rect key="frame" x="20" y="120" width="560" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="寸" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TNo-Ch-jj9">
                                 <rect key="frame" x="20" y="170" width="17" height="21"/>
@@ -124,6 +136,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yO0-L3-VaH">
                                 <rect key="frame" x="550" y="170" width="30" height="30"/>
                                 <state key="normal" title="入力"/>
+                                <connections>
+                                    <action selector="tapInput:" destination="BgL-BV-9L5" eventType="touchUpInside" id="Rrm-az-Jms"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -138,6 +153,9 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="寸" image="second" id="RLs-ap-G1w"/>
+                    <connections>
+                        <outlet property="dataTextField" destination="fb1-f5-RP9" id="4P2-3z-30A"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pdg-Fc-Dsk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
