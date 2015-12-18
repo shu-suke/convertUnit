@@ -7,7 +7,7 @@ swiftの勉強のために作った2つ目のプログラムです。
 『森 巧尚(2015) SwiftではじめるiPhoneアプリ開発の教科書 株式会社マイナビ出版』のサンプルコードです。
 タブアプリケーションとして作成し、共有変数の扱いについて学びました。  
   
-**このプログラムにはバグがあります。(Issues参照)**  
+**このプログラムにはバグがあります(Issues参照)。**  
   
 ## How to use
 When you input number and change tubs,a value converted units into is displayed.(cm,Inch,Feet)
