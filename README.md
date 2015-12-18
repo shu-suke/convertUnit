@@ -10,6 +10,6 @@ When you input number and change tub,a value converted units into is displayed.(
 ***
 数値を入力しタブを切り替えるとそれぞれセンチメートル、インチ、フィートに単位換算された値が表示されます。  
   
-![例](https://raw.github.com/shu-suke/convertUnit/wiki/capimg/convertcm.png)
-![例](https://raw.github.com/shu-suke/convertUnit/wiki/capimg/convertInch.png)
-![例](https://raw.github.com/shu-suke/convertUnit/wiki/capimg/convertFeet.png)
+![例1](https://raw.github.com/shu-suke/convertUnit/wiki/capimg/convertcm.png)
+![例2](https://raw.github.com/shu-suke/convertUnit/wiki/capimg/convertInch.png)
+![例3](https://raw.github.com/shu-suke/convertUnit/wiki/capimg/convertFeet.png)
