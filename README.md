@@ -1,7 +1,7 @@
 # convertUnit
 This is my second sample application for swift. I refered to a sample code in a book. I learned using global variable and creating tabbed application through coding this.  
   
-**THIS APPLICATION HAS BAG.**
+**THIS APPLICATION HAS BUG.**
 ***
 swiftの勉強のために作った2つ目のプログラムです。  
 『森 巧尚(2015) SwiftではじめるiPhoneアプリ開発の教科書 株式会社マイナビ出版』のサンプルコードです。
