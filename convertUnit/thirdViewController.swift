@@ -16,8 +16,8 @@ class thirdViewController: UIViewController {
 //    この画面が表示されるとき呼び出される
     override func viewWillAppear(animated: Bool) {
 //    共有変数の値をテキストフィールドに書き込む
-        let sunValue = ap.cmValue * 0.33
-        dataTextField.text = String(sunValue)
+        let feetValue = ap.cmValue * 30.48
+        dataTextField.text = String(feetValue)
     }
     
     @IBAction func tapInput() {
@@ -25,9 +25,9 @@ class thirdViewController: UIViewController {
         dataTextField.resignFirstResponder()
         if let text = dataTextField.text {
 //        テキストフィールドに値があって
-            if let sunValue = Double(text) {
+            if let feetValue = Double(text) {
 //                小数の値に変換できたらcmに単位換算して共有変数に書き込む
-                ap.cmValue = sunValue / 0.33
+                ap.cmValue = feetValue / 30.48
             }
         }
 

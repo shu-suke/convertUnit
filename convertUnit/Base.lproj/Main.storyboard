@@ -110,7 +110,7 @@
             </objects>
             <point key="canvasLocation" x="750" y="360"/>
         </scene>
-        <!--寸-->
+        <!--Feet-->
         <scene sceneID="b72-zA-JWj">
             <objects>
                 <viewController id="BgL-BV-9L5" customClass="thirdViewController" customModule="convertUnit" customModuleProvider="target" sceneMemberID="viewController">
@@ -127,8 +127,8 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="寸" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TNo-Ch-jj9">
-                                <rect key="frame" x="20" y="170" width="17" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Feet" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TNo-Ch-jj9">
+                                <rect key="frame" x="20" y="170" width="34" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -152,7 +152,7 @@
                             <constraint firstItem="fb1-f5-RP9" firstAttribute="top" secondItem="Z7V-g4-wd3" secondAttribute="bottom" constant="100" id="th0-QT-LdY"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="寸" image="second" id="RLs-ap-G1w"/>
+                    <tabBarItem key="tabBarItem" title="Feet" image="second" id="RLs-ap-G1w"/>
                     <connections>
                         <outlet property="dataTextField" destination="fb1-f5-RP9" id="4P2-3z-30A"/>
                     </connections>

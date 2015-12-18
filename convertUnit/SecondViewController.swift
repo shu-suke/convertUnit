@@ -15,7 +15,7 @@ class SecondViewController: UIViewController {
     let ap = UIApplication.sharedApplication().delegate as! AppDelegate
 //    この画面を表示されるとき呼び出される
     override func viewWillAppear(animated: Bool) {
-//       共有変数の値をテキストフィールドに設定
+//      共有変数の値をテキストフィールドに設定
         let inchValue = ap.cmValue * 0.3937
         dataTextField.text = String(inchValue)
     }
