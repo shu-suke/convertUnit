@@ -8,4 +8,8 @@ swiftの勉強のために作った2こ目のプログラムです。
 ## How to use
 When you input number and change tub,a value converted units into is displayed.(cm,Inch,Feet)
 ***
-数値を入力しタブを切り替えるとそれぞれセンチメートル、インチ、フィートに単位換算された値が表示されます。
+数値を入力しタブを切り替えるとそれぞれセンチメートル、インチ、フィートに単位換算された値が表示されます。  
+  
+![例](https://raw.github.com/wiki/shu-suke/convertUnit/capimg/convertcm.png)
+![例](https://raw.github.com/wiki/shu-suke/convertUnit/capimg/convertInch.png)
+![例](https://raw.github.com/wiki/shu-suke/convertUnit/capimg/convertFeet.png)
