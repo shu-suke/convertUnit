@@ -33,7 +33,7 @@
                                 <rect key="frame" x="550" y="170" width="30" height="30"/>
                                 <state key="normal" title="入力"/>
                                 <connections>
-                                    <action selector="tapInput:" destination="9pv-A4-QxB" eventType="touchUpInside" id="6Cu-63-3uO"/>
+                                    <action selector="tapInput" destination="9pv-A4-QxB" eventType="touchUpInside" id="BR6-s9-6hd"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -84,7 +84,7 @@
                                 <rect key="frame" x="550" y="170" width="30" height="30"/>
                                 <state key="normal" title="入力"/>
                                 <connections>
-                                    <action selector="tapInput:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="oO7-k9-rhn"/>
+                                    <action selector="tapInput" destination="8rJ-Kc-sve" eventType="touchUpInside" id="jbX-HM-Iaf"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -137,7 +137,7 @@
                                 <rect key="frame" x="550" y="170" width="30" height="30"/>
                                 <state key="normal" title="入力"/>
                                 <connections>
-                                    <action selector="tapInput:" destination="BgL-BV-9L5" eventType="touchUpInside" id="Rrm-az-Jms"/>
+                                    <action selector="tapInput" destination="BgL-BV-9L5" eventType="touchUpInside" id="cbO-3e-ZNB"/>
                                 </connections>
                             </button>
                         </subviews>
