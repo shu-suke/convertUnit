@@ -4,7 +4,7 @@ This is my second sample application for swift. You can get the value converted 
 **THIS APPLICATION HAS BUG.**
 ***
 swiftの勉強のために作った2つ目のプログラムです。単位換算した値を求めることができます。  
-『森 巧尚(2015) SwiftではじめるiPhoneアプリ開発の教科書 株式会社マイナビ出版』のサンプルコードです。  
+『森 巧尚(2015) SwiftではじめるiPhoneアプリ開発の教科書 株式会社マイナビ出版』のサンプルコードを参考にしました。  
 タブアプリケーションとして作成し、共有変数の扱いについて学びました。  
   
 **このプログラムにはバグがあります(Issues参照)。**  
